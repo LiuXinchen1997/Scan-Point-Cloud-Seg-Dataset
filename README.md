@@ -1,23 +1,36 @@
-# Scan-Point-Cloud-Seg-Dataset
+# Scan Point Cloud Seg Dataset
 
-## 1 环境配置
+## 1 Running Settings
 
-`conda create -n <your_env_name> python=3.6 --yes`
-`conda activate <your_env_name>`
+1. Create your conda environment and activate it.
 
-`pip install -r requirements.txt`
+    ```Shell
+    conda create -n <your_env_name> python=3.6 --yes
+    conda activate <your_env_name>
+    ```
 
-## 2 处理流程
+2. Install python package independency.
 
-1. 使用MeshLab软件人工打标出前景点云
-2. 使用generate_seg_label.py计算出背景点云、生成最终的点云标签文件
-3. 使用generate_color_points.py生成带纹理的点云标签文件
-4. 使用generate_train_test_split_data.py生成数据增强的训练数据与测试数据
+    ```Shell
+    pip install -r requirements.txt
+    ```
 
-## 3 效果展示
+## 2 Processing Procedure
 
-## 4 待添加
+1. Label foreground points from raw point cloud with tool software such as MeshLab.
 
-## 5 参考项目
+2. Extract background points and generate point cloud segmentation label file by running `generate_seg_label.py`.
+
+3. Generate point cloud segmentation label file with texture information by running `generate_color_points.py`.
+
+4. Generate augmented train data and test data by running `generate_train_test_split_data.py`.
+
+## 3 Display
+
+## 4 To-DO List
+
+1. Seg methods, like Point Transformer...
+
+## 5 Renference
 
 [[1] Python Package: mesh-to-sdf](https://github.com/marian42/mesh_to_sdf)
