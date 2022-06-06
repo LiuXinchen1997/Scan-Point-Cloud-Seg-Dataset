@@ -17,13 +17,14 @@
 
 ## 2 Processing Procedure
 
-1. Label foreground points from raw point cloud with tool software such as MeshLab.
+Branch 1: input points (only xyz) and textured mesh, output segmentation label file with xyz and rgb.
+    1. Label foreground points from raw point cloud with tool software such as MeshLab.
 
-2. Extract background points and generate point cloud segmentation label file by running `generate_seg_label.py`.
+    2. Extract background points and generate point cloud segmentation label file by running `generate_seg_label.py`.
 
-3. Generate point cloud segmentation label file with texture information by running `generate_color_points.py`.
+    3. Generate point cloud segmentation label file with texture information by running `generate_color_points.py`.
 
-4. Generate augmented train data and test data by running `generate_train_test_split_data.py`.
+    4. Generate augmented train data and test data by running `generate_train_test_split_data.py`.
 
 ## 3 Display
 
