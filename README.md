@@ -17,7 +17,7 @@
 
 ## 2 Processing Procedure
 
-Branch 1: input points (only xyz) and textured mesh, output segmentation label file with xyz and rgb.
+Branch 1: input points file (.xyz, only xyz) and textured mesh file (.obj), output segmentation label file with xyz and rgb (.xyz/.npy, xyzrgbl).
 
     1. Label foreground points from raw point cloud with tool software such as MeshLab.
 
@@ -27,7 +27,19 @@ Branch 1: input points (only xyz) and textured mesh, output segmentation label f
 
     4. Generate augmented train data and test data by running `generate_train_test_split_data.py`.
 
+Branch 2: input points file (.ply, xyzrgb), output segmentation label file with xyz and rgb (.xyz/.npy, xyzrgbl).
+
+    TO-DO (refer to `test.py`)
+
 ## 3 Display
+
+![](./resource/1.gif)
+
+![](./resource/2.gif)
+
+![](./resource/3.gif)
+
+![](./resource/4.gif)
 
 ## 4 To-DO List
 
