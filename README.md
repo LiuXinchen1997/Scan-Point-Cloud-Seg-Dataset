@@ -18,6 +18,7 @@
 ## 2 Processing Procedure
 
 Branch 1: input points (only xyz) and textured mesh, output segmentation label file with xyz and rgb.
+
     1. Label foreground points from raw point cloud with tool software such as MeshLab.
 
     2. Extract background points and generate point cloud segmentation label file by running `generate_seg_label.py`.
