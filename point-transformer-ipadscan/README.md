@@ -18,13 +18,13 @@ The codebase is provided by the first author of [Point Transformer](https://arxi
 > Command reference. 
 > If u want to run these codes on ur machine, some settings need to be modified.
 
-- train: `sh tool/train.sh ipad_scaned baseline5`
+- **train**: `sh tool/train.sh ipad_scaned baseline5`
 
-- test: `sh tool/test_ipadscan.sh exp/ipad_scaned/baseline5/`
+- **test**: `sh tool/test_ipadscan.sh exp/ipad_scaned/baseline5/`
 
-- visualization: `python tool/test_generate_vis.py`
+- **visualization**: `python tool/test_generate_vis.py`
 
-- calculation index: `python tool/test_calc_index.py`
+- **calculation index**: `python tool/test_calc_index.py`
 
 
 ## References

@@ -50,6 +50,8 @@ Please refer to the directory [**`point-transformer-ipadscan`**](https://github.
 
 ## 6 To-DO List
 
+1. update point-transformer-ipadscan README file.
+
 ## 7 Renference
 
 [[1] Python Package: mesh-to-sdf](https://github.com/marian42/mesh_to_sdf)
