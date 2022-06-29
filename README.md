@@ -28,7 +28,13 @@ Branch 2: input points file (.ply, xyzrgb), output segmentation label file (.xyz
 
 > TO-DO (refer to `ply_process.py`)
 
-## 3 Display
+## 3 Dataset
+
+We offer a demo ipad scanned dataset. You can download it by:
+
+- [BaiDu Cloud (code: ih8g)](https://pan.baidu.com/s/1-H8hRlY4zi2XB34ZnZKGRg)
+
+## 4 Display
 
 ![](./resource/1.gif)
 
@@ -38,10 +44,10 @@ Branch 2: input points file (.ply, xyzrgb), output segmentation label file (.xyz
 
 ![](./resource/4.gif)
 
-## 4 To-DO List
+## 5 To-DO List
 
 1. Seg methods, like Point Transformer...
 
-## 5 Renference
+## 6 Renference
 
 [[1] Python Package: mesh-to-sdf](https://github.com/marian42/mesh_to_sdf)
