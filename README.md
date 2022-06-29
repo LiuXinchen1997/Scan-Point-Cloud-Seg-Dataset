@@ -32,6 +32,8 @@ Branch 2: input points file (.ply, xyzrgb), output segmentation label file (.xyz
 
 We offer a demo ipad scanned dataset. You can download it by:
 
+- [Google Drive](https://drive.google.com/file/d/1sYnF24jNdhFO4QebqG7pms3esajZOHpH/view?usp=sharing)
+
 - [Baidu YunPan (extract code: ih8g)](https://pan.baidu.com/s/1-H8hRlY4zi2XB34ZnZKGRg)
 
 ## 4 Display
