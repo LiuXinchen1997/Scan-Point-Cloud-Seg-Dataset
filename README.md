@@ -26,7 +26,7 @@ Branch 1: input points file (.xyz, only xyz) and textured mesh file (.obj), outp
 
 Branch 2: input points file (.ply, xyzrgb), output segmentation label file (.xyz/.npy, xyzrgbl).
 
-> TO-DO (refer to `test.py`)
+> TO-DO (refer to `ply_process.py`)
 
 ## 3 Display
 

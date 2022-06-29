@@ -5,12 +5,11 @@ from time import time
 from plyfile import PlyData
 
 """
-待做：！！！
-使用ipad扫描可以得到ply点云文件，带颜色信息
-
-1. 使用meshlab软件手动提取 前景点集（保存为ply，带颜色）
-2. 将原点集和前景点集做差得到 背景点集
-3. 将前景点集、背景点集保存成xyzrgb格式
+TODO: 
+1. get .ply file with texture by ipad scanning.
+2. [following code] extract foreground point sets with MeshLab operation (save as .ply, with color).
+3. [following code] get background point sets by subtracting with raw points and foreground points.
+4. [following code] save foreground points and background points as format xyzrgb.
 """
 
 class Point(object):
@@ -53,7 +52,7 @@ if __name__ == '__main__':
     start_time = time()
     precision = 4
 
-    ply_points = PlyData.read(os.path.join('/data1/liuxinchen/ipad_scaned_color/raw_scan_data/1', 'point_cloud.ply'))
+    ply_points = PlyData.read(os.path.join('./ipad_scaned_color/raw_scan_data/1', 'point_cloud.ply'))
     print(ply_points['vertex'].data)
     points = np.array([[np.round(point[0], precision), np.round(point[1], precision), np.round(point[2], precision), point[3], point[4], point[5]] for point in ply_points['vertex'].data])
 
