@@ -26,7 +26,7 @@ Branch 1: input points file (.xyz, only xyz) and textured mesh file (.obj), outp
 
 Branch 2: input points file (.ply, xyzrgb), output segmentation label file (.xyz/.npy, xyzrgbl).
 
-> TO-DO (refer to `ply_process.py`)
+> TO-DO (refer to [**`ply_process.py`**](https://github.com/LiuXinchen1997/Scan-Point-Cloud-Seg-Dataset/blob/main/ply_process.py))
 
 ## 3 Demo Dataset
 
@@ -44,10 +44,14 @@ We offer a demo ipad scanned dataset. You can download it by:
 
 ![](./resource/4.gif)
 
-## 5 To-DO List
+## 5 Point Cloud Segmentation Test
 
-1. Seg methods, like Point Transformer...
+Please refer to the directory [**`point-transformer-ipadscan`**](https://github.com/LiuXinchen1997/Scan-Point-Cloud-Seg-Dataset/blob/main/point-transformer-ipadscan).
 
-## 6 Renference
+## 6 To-DO List
+
+## 7 Renference
 
 [[1] Python Package: mesh-to-sdf](https://github.com/marian42/mesh_to_sdf)
+
+[[2] Point Transformer](https://github.com/lucidrains/point-transformer-pytorch)
