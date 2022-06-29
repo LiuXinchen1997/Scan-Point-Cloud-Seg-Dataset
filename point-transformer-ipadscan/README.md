@@ -15,11 +15,16 @@ The codebase is provided by the first author of [Point Transformer](https://arxi
 
 ## Usage
 
-- 训练：在ipad_scaned数据集上Fine Tune：`sh tool/train.sh ipad_scaned baseline3`
+> Command reference. 
+> If u want to run these codes on ur machine, some settings need to be modified.
 
-- 测试：`sh tool/test_ipadscan.sh exp/ipad_scaned/baseline5/`
+- train: `sh tool/train.sh ipad_scaned baseline5`
 
-- 测试完成后将分割点云可视化：`python tool/test_generate_vis.py`
+- test: `sh tool/test_ipadscan.sh exp/ipad_scaned/baseline5/`
+
+- visualization: `python tool/test_generate_vis.py`
+
+- calculation index: `python tool/test_calc_index.py`
 
 
 ## References

@@ -52,6 +52,6 @@ def test(pred_dir, label_dir, files):
 
 if __name__ == '__main__':
     files = ['5.npy', '7.npy', '8.npy']
-    pred_dir = '/data1/liuxinchen/point-transformer-ipadscan/temp'
-    label_dir = '/data1/liuxinchen/ipad_scaned/label_data/test'
+    pred_dir = './point-transformer-ipadscan/temp'
+    label_dir = './ipad_scaned/label_data/test'
     test(pred_dir, label_dir, files)
