@@ -28,11 +28,11 @@ Branch 2: input points file (.ply, xyzrgb), output segmentation label file (.xyz
 
 > TO-DO (refer to `ply_process.py`)
 
-## 3 Dataset
+## 3 Demo Dataset
 
 We offer a demo ipad scanned dataset. You can download it by:
 
-- [BaiDu Cloud (code: ih8g)](https://pan.baidu.com/s/1-H8hRlY4zi2XB34ZnZKGRg)
+- [Baidu YunPan (extract code: ih8g)](https://pan.baidu.com/s/1-H8hRlY4zi2XB34ZnZKGRg)
 
 ## 4 Display
 
